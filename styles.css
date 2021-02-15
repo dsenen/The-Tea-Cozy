@@ -1,0 +1,121 @@
+/*https://www.taniarascia.com/you-dont-need-a-framework/*/
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	z-index: 1;
+}
+
+#imgHeader img {
+	margin-left: 10px;
+	height: 50px;
+
+}
+
+#linksMenu {
+	width: 100%;
+	text-align: right;
+}
+#linksMenu span {
+	text-decoration: underline;
+	margin: 0 1%;
+}
+
+main {
+	position: relative;
+	top: 69px;
+}
+
+#ourMission {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	height: 700px;
+	width: 1200px;
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+/*	overflow: hidden;*/
+}
+
+#textOnTop {
+	background-color: black;
+	text-align: center;
+	width: 100%; 
+}
+
+#ourMission h2,
+#ourMission h4 {
+	margin: .75rem auto;
+}
+
+#teaOfTheMonth {
+	width: 1000px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#teaOfTheMonth div img {
+	margin: 0px 1rem;
+	height: 200px;
+	width: 300px;
+}
+
+#teaOfTheMonth div p {
+	margin-top: 10px;
+}
+
+#locations {
+	height: 500px;
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#locations h2 {
+	padding-top: 5%;
+}
+
+#locationsDivs {
+	display: inline-flex;
+}
+
+#locationsDivs div {
+	margin: 0px 20px;
+	width: 300px;
+	background-color: black;
+	color: white;
+}
+
+#contact {
+	height: 200px;
+}
+
+footer p {
+	font-size: .9rem;
+	color: white;
+	margin-left: 20px;
+	text-align: left;
+}
+
